@@ -1,0 +1,33 @@
+{
+  "name": "star-tickets",
+  "version": "1.0.0",
+  "description": "mern stack",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "server": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/1zemzem/star-tickets.git"
+  },
+  "keywords": [
+    "mern",
+    "react"
+  ],
+  "author": "Tatiana Zemliakova <1zemliakova@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/1zemzem/star-tickets/issues"
+  },
+  "homepage": "https://github.com/1zemzem/star-tickets#readme",
+  "dependencies": {
+    "config": "^3.3.7",
+    "express": "^4.17.3",
+    "mongoose": "^6.2.8"
+  },
+  "devDependencies": {
+    "concurrently": "^7.0.0",
+    "nodemon": "^2.0.15"
+  }
+}
